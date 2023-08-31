@@ -4,4 +4,9 @@
 .nav-link{color: #2E2F42;}
 .contakt{color: #434455;}
 .hero-section{ background: var(--navyblue, #2E2F42);color: #FFFFFF;}
-.hero-button{background:#4D5AE5 ; color: #FFFFFF;}
+.hero-button{background:#4D5AE5 ; color: #FFFFFF;cursor: pointer;
+    border: 0; }
+.hero-button:hover{
+    color: #FFFFFF; ;
+    background: #4D5AE5;
+}
