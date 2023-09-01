@@ -1,8 +1,8 @@
 :root{}
 /* bace*/
-    body {font-family:"Roboto", sans-serif;
-    color: #2E2F42;
-    background-color: #FFF;
+    body {font-family: Roboto, sans-serif;
+    color:#434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     }
     /* global */
@@ -22,15 +22,16 @@
         overflow: hidden;}
         /* header */
 .logo{
-    color: #2E2F42;
+    font-family: Raleway,sans-serif;
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
+    line-height: 1,17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo-accent
-{color:#4D5AE5;}
+{color: #2e2f42;}
 
 .nav-link
 {color:#2E2F42;
@@ -50,19 +51,22 @@ color:#FFFFFF;
 font-size: 56px;
 font-weight: 700;
 line-height: 1,07;
+text-align: center;
 letter-spacing: 0,02em;
 }
 .hero-button
 {background:#4D5AE5 ;
-color:#FFFFFF; cursor: pointer;
+color:#FFFFFF;
+ cursor: pointer;
 border: 0;
 font-family:"Roboto",sans-serif ;
+font-size: 16px;
 font-weight: 500;
 line-height:1,5 ;
 letter-spacing: 0,04em;}
 .hero-button:hover
 {color:#FFF ;
-background: #4D5AE5;
+background: #404BBF;
 }
 /* adventure section */
 .advantage-section{
@@ -70,6 +74,7 @@ background: #4D5AE5;
 }
 .advantage-title{
     color:#2E2F42 ;
+    font-size: 20px;
     font-size: 20px;
         font-weight: 500;
         line-height: 1,2;
