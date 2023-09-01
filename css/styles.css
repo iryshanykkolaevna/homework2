@@ -1,12 +1,83 @@
+:root{}
+/* bace*/
+    body {font-family:"Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFF;
+    font-size: 16px;
+    }
+    /* global */
+    a{text-decoration: none;}
+    ul{list-style-type: none;}
+    button{font-family: inherit;}
+    .visually-hidden
+    {position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;}
+        /* header */
 .logo{
     color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1,16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.nav-link{color: #2E2F42;}
-.contakt{color: #434455;}
-.hero-section{ background: var(--navyblue, #2E2F42);color: #FFFFFF;}
-.hero-button{background:#4D5AE5 ; color: #FFFFFF;cursor: pointer;
-    border: 0; }
-.hero-button:hover{
-    color: #FFFFFF; ;
-    background: #4D5AE5;
+.logo-accent
+{color:#4D5AE5;}
+
+.nav-link
+{color:#2E2F42;
+font-weight: 500;
+line-height: 1,5;
+letter-spacing: 0.02em;
+}
+
+.contakt{color:#434455 ;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.02em;}
+/* hero-section */
+.hero-section
+{ background: #2E2F42;
+color:#FFFFFF;
+font-size: 56px;
+font-weight: 700;
+line-height: 1,07;
+letter-spacing: 0,02em;
+}
+.hero-button
+{background:#4D5AE5 ;
+color:#FFFFFF; cursor: pointer;
+border: 0;
+font-family:"Roboto",sans-serif ;
+font-weight: 500;
+line-height:1,5 ;
+letter-spacing: 0,04em;}
+.hero-button:hover
+{color:#FFF ;
+background: #4D5AE5;
+}
+/* adventure section */
+.advantage-section{
+  color: #000;  background: #FFF;
+}
+.advantage-title{
+    color:#2E2F42 ;
+    font-size: 20px;
+        font-weight: 500;
+        line-height: 1,2;
+        letter-spacing: 0.02em;      
+}
+.advantage-text{
+    color:#434455 ;
+        font-weight: 400;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
 }
