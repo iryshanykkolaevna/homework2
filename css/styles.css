@@ -26,7 +26,7 @@
     color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -36,13 +36,14 @@
 .nav-link
 {color:#2E2F42;
 font-weight: 500;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.contakt{color:#434455 ;
+.address{color:#434455 ;
     font-weight: 400;
-    line-height: 1,5;
+    font-style: normal;
+    line-height: 1.5;
     letter-spacing: 0.02em;}
 /* hero-section */
 .hero-section
@@ -50,9 +51,9 @@ letter-spacing: 0.02em;
 color:#FFFFFF;
 font-size: 56px;
 font-weight: 700;
-line-height: 1,07;
+line-height: 1.07;
 text-align: center;
-letter-spacing: 0,02em;
+letter-spacing: 0.02em;
 }
 .hero-button
 {background:#4D5AE5 ;
@@ -62,10 +63,10 @@ border: 0;
 font-family:"Roboto",sans-serif ;
 font-size: 16px;
 font-weight: 500;
-line-height:1,5 ;
-letter-spacing: 0,04em;}
+line-height:1.5 ;
+letter-spacing: 0.04em;}
 .hero-button:hover
-{color:#FFF ;
+{color: #404bbf ;
 background: #404BBF;
 }
 /* adventure section */
@@ -77,7 +78,7 @@ background: #404BBF;
     font-size: 20px;
     font-size: 20px;
         font-weight: 500;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.02em;      
 }
 .advantage-text{
