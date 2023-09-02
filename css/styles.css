@@ -93,7 +93,7 @@ background: #404BBF;
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team-section{background-color: #FFFFFF}
+.team-section{background-color: #F4F4FD}
 .team-name{
     background-color: #F4F4FD;
     font-weight: 500;
@@ -116,6 +116,7 @@ background: #404BBF;
    color: #2e2f42;
 }
 .portfolio-text{
+   background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
