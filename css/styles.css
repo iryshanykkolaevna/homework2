@@ -113,7 +113,7 @@ background-color:#2e2f42;
 
 Adventure section 
 
-.visually-hidden {
+/* .visually-hidden { 
   position: absolute;
   width: 1px;
   height: 1px;
@@ -124,7 +124,7 @@ Adventure section
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 .advantage-title{
   line-height: 1.2;
   
