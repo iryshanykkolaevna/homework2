@@ -126,6 +126,10 @@ background-color:#2e2f42;
   overflow: hidden;
 }
 */
+.advantage-title{
+  line-height: 1.2;
+  color:#2e2f42 ;
+}
 .advantage-item-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
