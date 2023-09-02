@@ -146,9 +146,6 @@ background-color:#2e2f42;
 .team-section {
   background-color: #f4f4fd;
 }
-.team-section-list{
-  background-color: #FFFFFF
-}
 
 .team-section-title {
   line-height: 1.11;
@@ -156,6 +153,7 @@ background-color:#2e2f42;
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
+  background-color: #FFFFFF
 }
 
 .team-name {
