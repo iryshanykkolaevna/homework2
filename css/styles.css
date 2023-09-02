@@ -84,7 +84,7 @@ button {
 /* Hero-section */
 
 .hero-section {
-  background-color: #2e2f42;
+background-color:#2e2f42;
 }
 
 .hero-title {
@@ -155,7 +155,7 @@ button {
   color: #2e2f42;
 }
 
-.team-prof {
+.team-section-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
