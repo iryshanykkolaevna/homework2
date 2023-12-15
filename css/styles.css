@@ -1,3 +1,5 @@
+
+
 /* Global */
 
 body {
@@ -12,6 +14,7 @@ body {
 h1 {
   font-size: 56px;
   font-weight: 700;
+
 }
 
 h2 {
@@ -31,7 +34,15 @@ a {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+p,
+h1,
+h2,
+h3 
+{margin: 0;}
+img {display: block;}
 
 button {
   font-family: inherit;
@@ -209,3 +220,4 @@ background-color: #FFFFFF
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
